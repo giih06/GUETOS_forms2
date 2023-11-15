@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+form h3 {
+    font-size: large;
+    font-weight: 500;
+}
+
+label.btn span {
+  font-size: 1.5em ;
+}
+
+div[data-toggle="buttons"] label.active{
+    color: #7AA3CC;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+
+div[data-toggle="buttons"] label {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2em;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: none;
+    border: 0px solid 
+    #c8c8c8;
+    border-radius: 3px;
+    color: #000000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.coteudo-recolhivel {
+    background-color: #7AA3CC;
+}
+
+.coteudo-recolhivel:hover, .submission, .assinar {
+    background-color: #4a627b;
+}
+
+.custom-max-width {
+    max-width: 960px; /* Altere o valor conforme necessário */
+}
